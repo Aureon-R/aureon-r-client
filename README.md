@@ -1,8 +1,38 @@
-# Aureon R
+<p align="center">
+  <img src="https://aureonvpn.com/images/aureon-r-launcher.webp" width="96" height="96" alt="Aureon R">
+</p>
 
-Independent proxy client with Xray and sing-box. Official signed releases only. / 独立代理客户端，集成 Xray 与 sing-box。本仓库仅用于官方签名安装包和使用说明发布，不含应用开发源码。
+<h1 align="center">Aureon R</h1>
 
-[Download / 下载](https://github.com/Aureon-R/aureon-r-client/releases) · [Official website / 官网](https://aureonvpn.com/en/aureon-r) · [中文官网](https://aureonvpn.com/aureon-r?lang=zh)
+<p align="center">Your nodes. Your servers. Your control.<br>你的节点，你的服务器，由你掌控。</p>
+
+<p align="center">
+  <strong><a href="https://github.com/Aureon-R/aureon-r-client/releases/latest">Download latest Android APK / 下载最新版 APK</a></strong>
+  · <a href="https://aureonvpn.com/en/aureon-r">Official website</a>
+  · <a href="https://aureonvpn.com/aureon-r?lang=zh">中文官网</a>
+  · <a href="https://github.com/Aureon-R/aureon-r-client/discussions">Community / 社区</a>
+</p>
+
+**Free Android proxy client / 免费 Android 代理客户端**
+
+- Xray + sing-box · VLESS Reality Vision · Hysteria 1/2 · TUIC v5 · WireGuard · AnyTLS · Trojan TLS · VMess TLS
+- Node import and subscriptions / 节点导入与订阅
+- One-click Debian VPS deployment / Debian VPS 一键部署
+- Independent guest sharing credentials / 独立访客授权
+- Encrypted backup and incremental restore / 加密备份及增量恢复
+- Simplified Chinese and English / 简体中文及英文
+
+Aureon R does not supply managed proxy nodes. This repository distributes signed release packages and public documentation, not the application development source code.
+
+Aureon R 不提供官方代理节点。本仓库仅发布已签名安装包与公开说明，不包含应用开发源码。
+
+## Quick start / 快速开始
+
+1. Download the signed Android ARM64 APK from Releases and verify its SHA-256 checksum. / 在 Releases 下载已签名 Android ARM64 APK，并校验 SHA-256。
+2. Install the APK on a compatible Android device. Import your existing node in Settings, or sign in to deploy on your own Debian VPS. / 安装 APK；在设置中导入节点，或登录后使用自己的 Debian VPS 部署节点。
+3. Select a node and connect. / 选择节点并连接。
+
+For full instructions, see the bilingual guide below. / 详细操作请查看下方中英文使用说明。
 
 ## Self-hosted sharing / 自托管节点分享
 Self-hosted sharing access is not yet publicly available. Registered users may email Aureon-vpn@proton.me with their Aureon R account username to request manual activation. Existing authorized users can continue sharing. Never include passwords, SSH credentials or recovery codes.
