@@ -43,6 +43,16 @@ Actual Android app screenshots. Account names, private server details and guest 
 - Encrypted backups stored on your own VPS, with incremental restore.
 - Simplified Chinese and English; account and device management; private support.
 
+## What's new in v0.5.80
+
+- Fixed DNS verification state being reset when the same live VPN session re-announces CONNECTED. New sessions and DNS configuration changes require fresh verification; stale results are rejected.
+- Automatic update checks at startup and foreground resume, plus **Settings → About → Check for updates**. Updates open the official APK download in the browser for user-confirmed installation.
+- IP-based country flags for all node types, using an offline DB-IP country database. Hostnames are resolved through encrypted DNS; unknown regions use a generic icon.
+- One-click latency testing and ascending latency sorting, including when connected. TCP measures port-connect latency; UDP protocols use ICMP round-trip latency, not a protocol handshake.
+- Multiple independent VPS deployments, with up to eight protocols per server.
+
+[Download v0.5.80](https://github.com/Aureon-R/aureon-r-client/releases/tag/v0.5.80) · Android ARM64 · Version code 202
+
 ## Download and installation
 
 1. Download the signed Android ARM64 APK from [Releases](https://github.com/Aureon-R/aureon-r-client/releases/latest).
