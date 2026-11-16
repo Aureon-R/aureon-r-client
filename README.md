@@ -38,6 +38,7 @@ Actual Android app screenshots. Account names, private server details and guest 
 - Import links, text, QR codes, images and subscriptions without signing in.
 - Strict mode: global proxy routing and encrypted DNS (DoH).
 - One-click Docker deployment and management on your own Debian VPS.
+- Multiple independent VPS deployments under one account, with up to eight supported protocols per server.
 - Authorized self-hosted node sharing, independent guest credentials and revocation.
 - Encrypted backups stored on your own VPS, with incremental restore.
 - Simplified Chinese and English; account and device management; private support.
@@ -62,6 +63,8 @@ Select the desired node and use the connection button. The dual cores support th
 ### 3. Deploy your own VPS
 
 Prepare a Debian VPS and SSH access. Register and sign in to Aureon R, open Self-hosted, enter the VPS IP or hostname, SSH username and password, choose a protocol and DNS, and start deployment. The app installs Docker and configures the proxy service and firewall. Add further supported protocols to the same VPS as needed.
+
+**Multiple independent VPS deployments:** Manage several Debian VPS instances under one account. Each server has its own Docker deployment and DNS settings and can host up to eight supported protocols. For example, three VPS instances in the US, Japan and Germany can host eight nodes each (24 nodes in total). To add another VPS, enter its own IP address and SSH credentials and deploy. Existing servers and their nodes remain unaffected. Manage, select and test all self-hosted nodes in the unified node list. Current local capacity is 20 saved VPS profiles and 100 total nodes (including imported, subscription and shared nodes), not a paid-plan quota.
 
 Self-hosted deployment is free; you pay your VPS provider directly. Confirm the target server and back up important data before redeploying or removing services. Redeployment can overwrite the existing managed deployment, and deleting a server removes the deployment managed by Aureon R.
 
