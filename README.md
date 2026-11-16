@@ -5,6 +5,8 @@
 
 <p align="center"><strong>English</strong> · <a href="README.zh-CN.md">简体中文</a></p>
 
+<p align="center"><strong>Android version</strong> · <a href="https://github.com/Aureon-R/aureon-r-windows">Windows version</a></p>
+
 <p align="center"><strong><a href="https://github.com/Aureon-R/aureon-r-client/releases/latest">Download latest Android APK</a></strong> · <a href="https://aureonvpn.com/en/aureon-r">Official website</a> · <a href="https://github.com/Aureon-R/aureon-r-client/discussions">Community</a></p>
 
 Aureon R is a free Android proxy client for user-provided nodes and self-hosted Debian VPS deployments. It integrates Xray and sing-box. Aureon R does not provide managed proxy nodes.

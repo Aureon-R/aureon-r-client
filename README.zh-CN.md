@@ -5,6 +5,8 @@
 
 <p align="center"><a href="README.md">English</a> · <strong>简体中文</strong></p>
 
+<p align="center"><strong>Android 版</strong> · <a href="https://github.com/Aureon-R/aureon-r-windows/blob/main/README.zh-CN.md">Windows 版</a></p>
+
 <p align="center"><strong><a href="https://github.com/Aureon-R/aureon-r-client/releases/latest">下载最新版 Android APK</a></strong> · <a href="https://aureonvpn.com/aureon-r?lang=zh">中文官网</a> · <a href="https://github.com/Aureon-R/aureon-r-client/discussions">用户社区</a></p>
 
 Aureon R 是免费的 Android 独立代理客户端，支持用户自行导入节点及在自己的 Debian VPS 一键部署。集成 Xray 与 sing-box 双内核，不提供官方代理节点。
