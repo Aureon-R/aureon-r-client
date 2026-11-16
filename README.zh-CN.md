@@ -43,6 +43,16 @@ Aureon R 是免费的 Android 独立代理客户端，支持用户自行导入�
 - 在自己的 VPS 上加密备份，并进行增量恢复。
 - 简体中文和英文、账户及设备管理、私信客服。
 
+## v0.5.80 更新内容
+
+- 修复同一 VPN 会话重复上报连接状态时 DNS 验证结果被重置的问题。新会话及 DNS 配置变化后重新验证，拒绝旧会话结果。
+- APP 启动或返回前台自动检查更新，支持 **设置 → 关于 → 检查更新** 手动检查；通过浏览器下载官方 APK，由用户确认覆盖安装。
+- 所有类型节点根据实际 IP 地址显示地区旗帜，使用离线 DB-IP 地区数据库。域名通过加密 DNS 解析，未知地区显示通用图标。
+- 全部节点一键测速及延迟升序排序，VPN 连接期间也可测速。TCP 测量端口连接延迟；UDP 协议测量 ICMP 往返延迟，不代表协议握手成功。
+- 多 VPS 独立部署，每台服务器最多部署八种协议。
+
+[下载 v0.5.80](https://github.com/Aureon-R/aureon-r-client/releases/tag/v0.5.80) · Android ARM64 · Version Code 202
+
 ## 下载与安装
 
 1. 在 [Releases 版本发布页面](https://github.com/Aureon-R/aureon-r-client/releases/latest) 下载已签名 Android ARM64 APK。
