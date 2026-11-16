@@ -21,9 +21,25 @@ Aureon R is an independent proxy client that supports importing your own nodes a
 
 ## Installation
 
-Supports Windows 10/11 x64, with the .NET runtime included. In-place upgrades are supported. Exit the previous version from the system tray before installing.
+Supports Windows 10/11 x64, with the .NET runtime included. In-place upgrades are supported. Exit the previous version from the system tray before installing. The EXE is not Authenticode-signed; Windows may show an unknown-publisher warning. Verify the SHA-256 checksum before running it.
 
 ---
+
+## Screenshots
+
+Actual Windows 0.1.28 connection (Chinese UI; local connection details masked):
+
+<img src="home-live-zh.png" width="340" alt="Live connection and verified DNS">
+
+English interface previews rendered from version 0.1.28 using test data:
+
+| Home | Nodes |
+| :---: | :---: |
+| <img src="home-en.png" width="300" alt="Home"> | <img src="nodes-en.png" width="300" alt="Node management"> |
+
+| Self-hosted deployment | Settings |
+| :---: | :---: |
+| <img src="deploy-en.png" width="300" alt="VPS deployment"> | <img src="settings-en.png" width="300" alt="Routing and security settings"> |
 
 ## Links
 
